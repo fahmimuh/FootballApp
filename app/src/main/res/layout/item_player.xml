@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="25dp"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/imgPlayerBadge"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+                android:id="@+id/tvPlayerName"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:id="@+id/tvPlayerPos"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
